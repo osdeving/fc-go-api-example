@@ -1,0 +1,15 @@
+# Binaries
+/bin/
+/out/
+/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Dependencies
+vendor/
