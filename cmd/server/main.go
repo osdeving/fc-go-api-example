@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	config, err := configs.LoadConfig("/home/osdeving/fullcycle/goexperts/fc-go-api-example/cmd/server/.env")
+	config, err := configs.LoadConfig(".")
 	if err != nil {
 		panic(err)
 	}
